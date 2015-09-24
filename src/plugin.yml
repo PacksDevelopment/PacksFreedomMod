@@ -1,8 +1,6 @@
-name: UnlimitedFreedomMod
+name: PacksFreedomMod
 main: me.StevenLawson.TotalFreedomMod.TotalFreedomMod
-version: 2.0
-description: Plugin for the UnlimitedFreedom server.
-softdepend: [BukkitTelnet, WorldEdit, Essentials]
-authors: [Madgeek1450, Prozza, tylerhyperHD, AwesomePinch]
-
-# plugin.yml is no longer used to define commands.
+version: 1.0
+description: The all op managment system for PacksFreedom
+softdepend: [BukkitTelnet, WorldEdit, Essentials, BarAPI, Votifier]
+authors: [Madgeek1450, Prozza, xPacks]
