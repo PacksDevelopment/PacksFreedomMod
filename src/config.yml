@@ -6,32 +6,29 @@
 # Generic server information
 server:
   # You should change this to your server's name
-  name: UnlimitedFreedom
+  name: PacksFreedom
 
   # The address your server is located at. Please do not include the port.
-  address: 167.114.36.167
+  address: 50.156.7.12
 
   # Shown at the server list
-  motd: UnlimitedFreedom &8- Minecraft %mcversion%
+  motd: PacksFreedom &8- Minecraft %mcversion%
 
   # Every word in the MOTD will be a different color unless prefixed by a color code
   colorful_motd: true
 
   # All players who show up as owner
   owners:
-    - _ItsNick_
-    - AwesomePinch
+    - xPacks
 
   # All players who show up as coowner
-  coowners:
-    - Missy_Cathy
-    - SlayBuzz
+  coowners: []
 
   # URL players should appeal for bans at
-  ban_url: http://ufreedom.boards.net/
+  ban_url: website.coming.soon
 
   # URL players should appeal for permanent bans at
-  permban_url: http://ufreedom.boards.net/
+  permban_url: website.coming.soon
 
 # ForceIP configuration
 forceip:
@@ -222,11 +219,11 @@ announcer:
   interval: 600
 
   # Prefix for all announcements
-  prefix: '&5[&eUnlimitedFreedom&5] &b'
+  prefix: '&5[&ePacksFreedom&5] &b'
 
   announcements:
-    - 'Be sure to visit our forums at &6http://ufreedom.boards.net/'
-    - 'You can always review the server rules here: &6http://ufreedom.boards.net/'
+    - 'Be sure to visit our forums at &6website.coming.soon'
+    - 'You can always review the server rules here: &6website.coming.soon'
     - 'If you are not OP, be sure to ask!'
     - 'Somebody breaking the rules?  Report it!  /report <user> <reason>'
     - 'Griefing is not allowed!'
@@ -234,9 +231,9 @@ announcer:
     - 'Interested in becoming admin? Do "/ai" for more information!'
     - 'You may view all online administrators via "/list -a"'
     - 'Famous players, such as Notch, are always fake!  We are an offline/cracked server!'
-    - '_ItsNick_ and AwesomePinch are the owners.'
+    - 'xPacks is the owner.'
     - 'Server lagging?  Check the lag via "/tps"'
-    - 'You are allowed to record and stream videos on UnlimitedFreedom :D'
+    - 'You are allowed to record and stream videos on PacksFreedom :D'
     - 'Player vs Player while in creative/god mode it forbidden!'
     - 'Spawn killing is forbidden!'
     - 'Invisible potions are allowed!'
@@ -265,6 +262,7 @@ unbannable_usernames:
   - skydoesminecraft
   - skythekidrs
   - tobyturner
+  - xPacks
   - xxslyfoxhoundxx
   - paulsoaresjr
   - sips_
@@ -323,9 +321,5 @@ autokick:
 
 # Players with access to the overlord command
 overlord_ips:
-  - 176.56.237.227
-  - 192.184.86.138
-  - 107.191.101.27
-  - 178.62.117.94
-  - 141.101.104.243
+  - 50.156.7.12
 
