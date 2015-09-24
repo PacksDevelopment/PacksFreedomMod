@@ -1,0 +1,34 @@
+#CJFreedom Configuration File. For CJFreedomMod custom items only. 
+
+# Cage Head
+head: wild1145
+
+# DoomHammer
+dhammer_mode: false
+
+# Admin World
+adminmode: true
+
+# Developer Mode
+emergancy_mode: false
+emergancy_mode_open: false
+
+#Development Mode
+dev_mode: false
+
+# Adminworld Enabled
+adminworld: true
+
+# API Access
+panel_api_key: 'FXbBT9N5kYxAy3HxSFf8dyGf'
+panel_url: 'http://167.114.36.167/panel/scripts/api.php'
+#Include everything up to where the API Is actually needed to add.
+
+# MySQL Details
+
+Hostname: '167.114.36.167'
+Port: '3306'
+# Dont change the port unless you know the shit your messing with
+Database: 'cjfreedom'
+Username: 'root'
+Password: 'fuckmyass'
